@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e4a10fc0-05ea-4719-a9e4-fa9551f81239" name="Default Changelist" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-config/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,9 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="1W5mmtjv3kGVYPxTeRxrKhvQyTc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-config/respo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\SpringCloud\github\demo01\spring-cloud-config\respo" />
       <recent name="D:\Code\SpringCloud\demo01\spring-cloud-config\respo" />
     </key>
   </component>
@@ -82,7 +87,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAdminApplication">
+  <component name="RunManager" selected="Spring Boot.WebAdminFeignApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hello-spring-cloud-config" />
       <extension name="coverage">
@@ -166,10 +171,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WebAdminFeignApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
         <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
-        <item itemvalue="Spring Boot.WebAdminFeignApplication" />
         <item itemvalue="Spring Boot.ServiceAdminApplication" />
       </list>
     </recent_temporary>
@@ -178,7 +183,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.42877698" />
+          <option name="contentProportion" value="0.24248634" />
           <treeState>
             <expand>
               <path>
@@ -220,7 +225,7 @@
       <workItem from="1578912881536" duration="1721000" />
       <workItem from="1578914624635" duration="828000" />
       <workItem from="1578961364829" duration="14641000" />
-      <workItem from="1578991215541" duration="3536000" />
+      <workItem from="1578991215541" duration="4561000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1578988949173</created>
@@ -262,38 +267,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1578472348292" />
-    <state width="836" height="159" key="GridCell.Tab.0.bottom" timestamp="1578996667696">
+    <state width="1108" height="215" key="GridCell.Tab.0.bottom" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578996667696" />
-    <state width="836" height="159" key="GridCell.Tab.0.center" timestamp="1578996667695">
+    <state width="1108" height="215" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.0.center" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578996667695" />
-    <state width="836" height="159" key="GridCell.Tab.0.left" timestamp="1578996667695">
+    <state width="1108" height="215" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.0.left" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578996667695" />
-    <state width="836" height="159" key="GridCell.Tab.0.right" timestamp="1578996667695">
+    <state width="1108" height="215" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.0.right" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578996667695" />
-    <state width="836" height="159" key="GridCell.Tab.1.bottom" timestamp="1578996667696">
+    <state width="1108" height="215" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.1.bottom" timestamp="1578997697556">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578996667696" />
-    <state width="836" height="159" key="GridCell.Tab.1.center" timestamp="1578996667696">
+    <state width="1108" height="215" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578997697556" />
+    <state width="1108" height="215" key="GridCell.Tab.1.center" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1578996667696" />
-    <state width="836" height="159" key="GridCell.Tab.1.left" timestamp="1578996667696">
+    <state width="1108" height="215" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.1.left" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1578996667696" />
-    <state width="836" height="159" key="GridCell.Tab.1.right" timestamp="1578996667696">
+    <state width="1108" height="215" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
+    <state width="1108" height="215" key="GridCell.Tab.1.right" timestamp="1578997697555">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="836" height="159" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1578996667696" />
+    <state width="1108" height="215" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1578997697555" />
     <state x="270" y="14" key="SettingsEditor" timestamp="1578991399367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

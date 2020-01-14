@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/heajing007/spring-cloud-config.git
           search-paths: respo
           username: hajahz@qq.com
-          password: haj114538
+          password: heajing123456
 
 server:
   port: 8888
