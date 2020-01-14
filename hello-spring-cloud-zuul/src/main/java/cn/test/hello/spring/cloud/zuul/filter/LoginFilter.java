@@ -14,7 +14,7 @@ import java.io.IOException;
  * <p>Title: LoginFilter</p>
  * <p>Description: </p>
  */
-@Component
+//@Component
 public class LoginFilter extends ZuulFilter {
     @Override
     public String filterType() {
