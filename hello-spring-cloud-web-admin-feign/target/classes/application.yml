@@ -13,7 +13,7 @@ spring:
       uri: http://localhost:8888
       name: web-admin-feign
       label: master
-      profile: prod
+      profile: dev
 #####################
 #server:
 #  port: 8765
