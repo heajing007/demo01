@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminController {
 
 
-    @Qualifier("adminServiceHystrix")
     @Autowired
     private AdminService adminService;
 
