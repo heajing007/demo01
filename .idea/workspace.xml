@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a10fc0-05ea-4719-a9e4-fa9551f81239" name="Default Changelist" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-config/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-service-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-service-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/cn/test/spring/cloud/web/admin/feign/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/cn/test/spring/cloud/web/admin/feign/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/cn/test/hello/spring/cloud/zuul/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/cn/test/hello/spring/cloud/zuul/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zipkin/src/main/java/cn/test/hello/spring/cloud/zipkin/ZipKinApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zipkin/src/main/java/cn/test/hello/spring/cloud/zipkin/ZipKinApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-config/respo" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21034482" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -94,7 +91,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.test.hello.spring.cloud.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.test.hello.spring.cloud.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hello-spring-cloud-config" />
       <extension name="coverage">
@@ -142,19 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebAdminRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring-cloud-web-admin-ribbon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.test.spring.cloud.web.admin.ribbon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.test.spring.cloud.web.admin.ribbon.WebAdminRibbonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZipKinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-spring-cloud-zipkin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.test.hello.spring.cloud.zipkin.ZipKinApplication" />
@@ -180,17 +177,17 @@
       <item itemvalue="Spring Boot.ZipKinApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.WebAdminFeignApplication" />
-      <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
       <item itemvalue="Spring Boot.ServiceAdminApplication" />
       <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.WebAdminFeignApplication" />
         <item itemvalue="Spring Boot.ServiceAdminApplication" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
-        <item itemvalue="Spring Boot.WebAdminRibbonApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +195,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.25409836" />
+          <option name="contentProportion" value="0.26912567" />
           <treeState>
             <expand>
               <path>
@@ -209,11 +206,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -253,7 +245,8 @@
       <workItem from="1579050179050" duration="959000" />
       <workItem from="1579052512622" duration="1247000" />
       <workItem from="1579053779642" duration="5000" />
-      <workItem from="1579053797112" duration="1558000" />
+      <workItem from="1579053797112" duration="2613000" />
+      <workItem from="1579065981202" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1578988949173</created>
@@ -279,6 +272,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="722" y="94" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1579003691179" />
+    <state x="361" y="91" key="#Project_Structure" timestamp="1579067014898">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1579067014898" />
     <state x="338" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578914719662">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -295,46 +292,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1578472348292" />
-    <state width="518" height="229" key="GridCell.Tab.0.bottom" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.0.bottom" timestamp="1579077258306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.0.center" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579077258306" />
+    <state width="509" height="226" key="GridCell.Tab.0.center" timestamp="1579077258305">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.0.left" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579077258305" />
+    <state width="509" height="226" key="GridCell.Tab.0.left" timestamp="1579077258305">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.0.right" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579077258305" />
+    <state width="509" height="226" key="GridCell.Tab.0.right" timestamp="1579077258305">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.1.bottom" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579077258305" />
+    <state width="509" height="226" key="GridCell.Tab.1.bottom" timestamp="1579077258306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.1.center" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579077258306" />
+    <state width="509" height="226" key="GridCell.Tab.1.center" timestamp="1579077258306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.1.left" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1579077258306" />
+    <state width="509" height="226" key="GridCell.Tab.1.left" timestamp="1579077258306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state width="518" height="229" key="GridCell.Tab.1.right" timestamp="1579055335290">
+    <state width="509" height="226" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1579077258306" />
+    <state width="509" height="226" key="GridCell.Tab.1.right" timestamp="1579077258306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="518" height="229" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1579055335290" />
-    <state x="270" y="14" key="SettingsEditor" timestamp="1579054049392">
+    <state width="509" height="226" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1579077258306" />
+    <state x="270" y="14" key="SettingsEditor" timestamp="1579067078942">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579054049392" />
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1579053780035">
+    <state x="270" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579067078942" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1579066020826">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1579053780035" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1579066020826" />
     <state x="356" y="45" key="new project wizard" timestamp="1578970770051">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -13,9 +13,11 @@
         <module name="hello-spring-cloud-service-admin" />
         <module name="hello-spring-cloud-web-admin-ribbon" />
         <module name="hello-spring-cloud-config" />
+        <module name="hello-spring-cloud-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hello-spring-cloud-admin" target="1.8" />
       <module name="hello-spring-cloud-config" target="1.8" />
       <module name="hello-spring-cloud-dependencies" target="1.8" />
       <module name="hello-spring-cloud-eureka" target="1.8" />
@@ -28,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-spring-cloud-admin" options="-parameters" />
       <module name="hello-spring-cloud-config" options="-parameters" />
       <module name="hello-spring-cloud-eureka" options="-parameters" />
       <module name="hello-spring-cloud-service-admin" options="-parameters" />

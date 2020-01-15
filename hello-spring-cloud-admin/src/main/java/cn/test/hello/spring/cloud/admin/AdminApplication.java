@@ -1,18 +1,15 @@
-package cn.test.hello.spring.cloud.zipkin;
+package cn.test.hello.spring.cloud.admin;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import zipkin.server.internal.EnableZipkinServer;
 
-/**
- * 服务链路追踪
- */
 @SpringBootApplication
+@EnableAdminServer
 @EnableEurekaClient
-@EnableZipkinServer
-public class ZipKinApplication {
+public class AdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ZipKinApplication.class, args);
+        SpringApplication.run(AdminApplication.class, args);
     }
 }

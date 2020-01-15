@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/demo01.iml" filepath="$PROJECT_DIR$/.idea/demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin/hello-spring-cloud-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-config/hello-spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-dependencies/hello-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-dependencies/hello-spring-cloud-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" />
