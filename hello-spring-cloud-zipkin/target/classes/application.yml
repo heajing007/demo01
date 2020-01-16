@@ -1,6 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-zipkin
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 server:
   port: 9411

@@ -12,6 +12,10 @@ spring:
           password: heajing123456
   zipkin:
     base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 #  配置服务器的默认端口为 8888，如果修改了默认端口，
 #  则客户端项目就不能在 application.yml 或 application.properties 中配置
